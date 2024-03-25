@@ -1,12 +1,11 @@
 cask "openai-translator" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.3.34"
-  sha256 intel: "165308eeda3b586b3f7be08effe14f73507e9a775087fd3f7622c2cb6d3761d4",
-         arm: "8b8e07f03524135968f8114193e18e9bb4310d3b94ed1158333cc16ab9acfb51"
+  version "0.3.35"
+  sha256 intel: "734a7e9156c1eb83a99ad2c62d2fcf0a24c3e620d23ea268cc6553234e8a5054",
+         arm:   "c35dc2d7f61497f59b4530d509a817d997506504d47b2a9e8d446d28e4965b16"
 
   url "https://github.com/yetone/openai-translator/releases/download/v#{version}/OpenAI.Translator_#{version}_#{arch}.dmg"
-
   name "OpenAI Translator"
   desc "Cross-platform Translatior based on ChatGPT API"
   homepage "https://github.com/yetone/openai-translator"
